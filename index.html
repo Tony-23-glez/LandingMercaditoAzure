@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Mercadito de Juan - Frutas y Verduras Frescas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+     Header 
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <h1>El Mercadito de Juan</h1>
+                <span class="tagline">Frescura Natural</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!--Hero Section  --> 
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Frutas y Verduras de la Mejor Calidad</h2>
+            <p>Directamente del campo a tu mesa. Productos frescos, naturales y llenos de sabor para toda tu familia.</p>
+            <a href="#productos" class="cta-button">Ver Productos</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=500&fit=crop" alt="Frutas y verduras frescas">
+        </div>
+    </section>
+
+     <!--About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Quiénes Somos</h2>
+                <p>Conoce la historia detrás de El Mercadito de Juan</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Nuestra Misión</h3>
+                    <p>Ofrecer productos frescos y de calidad superior, apoyando a los productores locales y brindando a nuestros clientes la mejor experiencia de compra.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser el mercado de referencia en la comunidad, promoviendo una alimentación saludable y sostenible para todas las familias.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Nuestra Historia</h3>
+                    <p>Desde 1995, Juan comenzó con un pequeño puesto de frutas. Hoy, tres generaciones después, seguimos comprometidos con la frescura y calidad.</p>
+                </div>
+            </div>
+
+            <div class="team-section">
+                <h3>Nuestro Equipo</h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="Juan - Fundador">
+                        <h4>Juan Pérez</h4>
+                        <p>Fundador y Director</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=200&h=200&fit=crop&crop=face" alt="María - Gerente">
+                        <h4>María Pérez</h4>
+                        <p>Gerente General</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" alt="Carlos - Encargado">
+                        <h4>Carlos Rodríguez</h4>
+                        <p>Encargado de Productos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Products Section -->
+    <section id="productos" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Productos</h2>
+                <p>Variedad y frescura en cada categoría</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=300&h=250&fit=crop" alt="Frutas Tropicales">
+                    <div class="product-info">
+                        <h3>Frutas Tropicales</h3>
+                        <p>Mango, piña, papaya, maracuyá y más frutas exóticas de temporada.</p>
+                        <span class="price">Desde $2.50/kg</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1557800636-894a64c1696f?w=300&h=250&fit=crop" alt="Cítricos">
+                    <div class="product-info">
+                        <h3>Cítricos</h3>
+                        <p>Naranjas, limones, limas y toronjas jugosas y llenas de vitamina C.</p>
+                        <span class="price">Desde $1.80/kg</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300&h=250&fit=crop" alt="Verduras de Hoja">
+                    <div class="product-info">
+                        <h3>Verduras de Hoja</h3>
+                        <p>Lechuga, espinaca, acelga, kale y más vegetales verdes frescos.</p>
+                        <span class="price">Desde $1.20/manojo</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=300&h=250&fit=crop" alt="Tubérculos">
+                    <div class="product-info">
+                        <h3>Tubérculos</h3>
+                        <p>Papas, zanahorias, cebollas, yuca y otros vegetales de raíz.</p>
+                        <span class="price">Desde $0.90/kg</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=250&fit=crop" alt="Frutos Rojos">
+                    <div class="product-info">
+                        <h3>Frutos Rojos</h3>
+                        <p>Fresas, arándanos, moras y frambuesas de la mejor calidad.</p>
+                        <span class="price">Desde $4.50/bandeja</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300&h=250&fit=crop" alt="Hierbas Aromáticas">
+                    <div class="product-info">
+                        <h3>Hierbas Aromáticas</h3>
+                        <p>Albahaca, cilantro, perejil, menta y especias frescas.</p>
+                        <span class="price">Desde $0.75/manojo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Gallery Section -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestra Galería</h2>
+                <p>Descubre la frescura y calidad de nuestros productos</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=400&h=300&fit=crop" alt="Puesto de frutas colorido">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=300&fit=crop" alt="Verduras frescas orgánicas">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop" alt="Cliente comprando productos frescos">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop" alt="Interior del mercado">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=400&h=300&fit=crop" alt="Preparación de jugos naturales">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=400&h=300&fit=crop" alt="Frutas de temporada">
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contáctanos</h2>
+                <p>Estamos aquí para servirte</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📍 Dirección</h3>
+                        <p>Av. Principal 123<br>Centro, Ciudad<br>CP 12345</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>📞 Teléfono</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>⏰ Horarios</h3>
+                        <p>Lunes a Sábado: 7:00 AM - 7:00 PM<br>Domingo: 8:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>✉️ Email</h3>
+                        <p>info@mercaditodejuan.com</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer--> 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>El Mercadito de Juan</h3>
+                    <p>Tu mercado de confianza desde 1995. Frescura y calidad garantizada.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="WhatsApp">💬</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📍 Av. Principal 123, Centro</p>
+                    <p>📞 +1 (555) 123-4567</p>
+                    <p>✉️ info@mercaditodejuan.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 El Mercadito de Juan. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
